@@ -1,0 +1,16 @@
+in this scenario, the carpark gate needs to allow users that are registerd with a data base, maybe be car rego or by ID/card swipe.
+It needs to count the amound of cars inside, by tracking users going in and out and not allow more then the capacity of the carpark.
+
+the input should be a car, with its rego or ID
+it should track the number of cars as a variable (or a database of cars)
+the output is, the message displayed on the screen if failure, or the boomgate opens. aswell as storing the the new car in the system
+apon leaving, the car should also still be checked for their ID to update the database and counter
+
+VARIABLES:            TYPE:
+maximum capacity      constant
+current cars inside   variable
+allowed cars IDs      constant (i think)
+current cars ID       input
+boom gate state       output
+display message       output
+
